@@ -1,0 +1,118 @@
+body{padding: 30px; background: #2bd3ff;}
+.step-wrap{
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    clear:both;
+    width:100%;
+    max-width: 1200px;
+
+}
+.step-order{font-size: 80%;}
+.step-title{
+    font-weight: normal;
+    font-size: 160%;
+    width: 100%;
+    border: 0;
+    margin-bottom: 1.5rem;
+}
+.editable:focus,.editable:hover{
+    outline: 1px solid #aaa;
+    cursor: text;
+}
+
+
+.step.disabled{opacity: .5;}
+
+.step-num{float: left;  width: 10%; height: 100%;  }
+.step{padding: 15px;border:1px solid #fff; box-shadow: 0 0 20px #779 ; width: 90%; float: right; background: #fff;}
+
+.textarea, label{
+    width: 100%;
+
+}
+
+
+.checkbox{
+    border: 1px solid #aaa;
+    padding: 5px 10px ;
+   /* width: 100%;*/
+    display: block;
+    cursor: pointer;
+    font-size: 110%;
+}
+
+.rich-radio{
+    box-shadow: 0 0 7px #7E7E7E;
+    text-align: center;
+    width: 100%;
+    padding-top: 160px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    cursor: pointer;
+    transition: .3s;
+    opacity: .9;
+}
+.rich-radio:hover{
+
+    box-shadow: 0 0 16px #232020;
+    transition: .3s;
+    opacity: 1;
+
+
+}
+.rich-radio input{
+    width: 100%;
+}
+.rich-radio div{
+   /* background: #fff;*/
+    width:100%;
+    /*padding-bottom: .5rem;*/
+}
+
+
+.addPhoto-btn{
+    position: absolute;
+    top: 29%;
+    left: 31%;
+    margin: 0 auto;
+    opacity:.8;
+}
+
+.addFieldBtn{
+    background: #fff;
+    box-shadow: 0 0px 5px;
+    font-size: 501%;
+    height: 100%;
+    padding: 0;
+}
+#search-form{    text-align: center;}
+
+
+.radio-label-inside textarea, .checkbox-label-inside textarea{
+    width: 100%;
+    display: block;
+    border-width: 1px 0 0 0;
+    text-align: center;
+    resize: none;
+    font-size: 120%;
+}
+
+
+
+textarea.PhotoType{
+
+}
+
+input.PlainType{
+    border-width: 1px 0 0 0;
+    text-align: left;
+    resize: none;font-size: 150%;
+    box-shadow: 0 0 7px #7E7E7E;
+}
+
+.radio-label-inside:focus, .checkbox-label-inside:focus{
+    border-color: #a55353;
+}
+

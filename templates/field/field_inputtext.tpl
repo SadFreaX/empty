@@ -1,0 +1,1 @@
+<input type='inputtext' placeholder="{{:placeholder}}" id='' value="{{:value}}" cols=5 data-link="value">

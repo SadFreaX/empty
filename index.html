@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--<link rel="stylesheet" href="css/bootstrap-grid.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--<script src="https://code.jquery.com/jquery-3.0.0.js"></script>-->
+    <!--<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/vendor/jsviews.js"></script>
+</head>
+<body>
+
+<input type="text" id="dataSaveId" value="data">
+<button onclick="DataManager.save('data',$('#defaultData').val())">save</button>
+<button onclick="DataManager.load('data',$('#defaultData').val())">load</button>
+<button onclick="DataManager.clear($('#defaultData').val())">x</button>
+<button onclick="DataManager.reset()">reset</button>
+<br>
+<br>
+
+<div id="result"></div>
+
+<br><bqr>
+
+
+<br><br>
+</body>
+
+<script src="js/init.js"></script>
+<script src="js/photos.js"></script>
+<script src="js/handlers.js"></script>
+<script src="js/DataManager.js"></script>
+
+<script>
+
+</script>
+</html>
