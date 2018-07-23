@@ -82,7 +82,7 @@ body{padding: 30px; background: #2bd3ff;}
 
 .addFieldBtn{
     background: #fff;
-    box-shadow: 0 0px 5px;
+    box-shadow: 0 0 5px;
     font-size: 501%;
     height: 100%;
     padding: 0;
@@ -100,11 +100,6 @@ body{padding: 30px; background: #2bd3ff;}
 }
 
 
-
-textarea.PhotoType{
-
-}
-
 input.PlainType{
     border-width: 1px 0 0 0;
     text-align: left;
@@ -115,4 +110,3 @@ input.PlainType{
 .radio-label-inside:focus, .checkbox-label-inside:focus{
     border-color: #a55353;
 }
-
