@@ -127,7 +127,7 @@ var InitValues = {
  */
 
 var loadTpl = {
-  path: "http://localhost:63342/quizzer/templates/",
+  path: "http://46.36.219.232:7777/1.com/quizzer/templates/",
   registerTemplate: function(name, view) {
     var deferred = $.Deferred();
     var subfolder = "";
